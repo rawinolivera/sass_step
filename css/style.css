@@ -56,6 +56,13 @@ input, select {
   vertical-align: middle;
 }
 
+#listing li a, #player_nav li a, .new span.overlay, nav ul li a, nav footer ul li a {
+  -moz-transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
 body, select, input, textarea {
   color: #4E4F48;
 }
@@ -218,10 +225,6 @@ nav ul li a, nav footer ul li a {
   -o-border-radius: 7px;
   border-radius: 7px;
   behavior: url(PIE.htc);
-  -moz-transition: background-color 0.3s ease-in;
-  -webkit-transition: background-color 0.3s ease-in;
-  -o-transition: background-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in;
 }
 nav ul li a:hover, nav footer ul li a:hover {
   background-color: #C2CF52;
@@ -263,10 +266,6 @@ nav ul li a:hover, nav footer ul li a:hover {
   font-weight: bold;
   padding: 10px;
   color: white;
-  -moz-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
 }
 
 .new a:hover span.overlay {
@@ -411,10 +410,6 @@ img {
   -o-border-radius: 15px 15px 0 0;
   border-radius: 15px 15px 0 0;
   behavior: url(PIE.htc);
-  -moz-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
 }
 
 #player_nav li.detail a {
@@ -613,10 +608,6 @@ p.reviewer {
   color: #4E4F48;
   font-size: 1.3em;
   margin-left: 1em;
-  -moz-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
 }
 
 #listing li a:hover {
