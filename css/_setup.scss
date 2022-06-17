@@ -1,0 +1,17 @@
+// Variables setup - Variables, Misin and Extend definitions
+
+$base:     #4E4F48;
+$accent:   #C2CF52;
+$basefont: "Trebuchet MS", san-serif;
+
+%transition {
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  -o-transition: background-color .3s ease-in;
+  transition: background-color .3s ease-in;
+}
+
+@mixin rounded($radius:7px) {
+  border-radius: $radius;
+  behavior: url(PIE.htc);
+}
